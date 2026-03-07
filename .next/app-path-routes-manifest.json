@@ -1,0 +1,11 @@
+{
+  "/(auth)/login/page": "/login",
+  "/(main)/artists/page": "/artists",
+  "/(main)/dashboard/page": "/dashboard",
+  "/(main)/events/page": "/events",
+  "/(main)/payments/page": "/payments",
+  "/(main)/users/page": "/users",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico"
+}

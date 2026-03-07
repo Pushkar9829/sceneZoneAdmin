@@ -1,0 +1,35 @@
+{
+  "node": {
+    "40a1194005046310bb8f27c059a8eab6a843425551": {
+      "workers": {
+        "app/(main)/users/page": {
+          "moduleId": 82088,
+          "async": false,
+          "exportedName": "deleteUserAction",
+          "filename": "app/(main)/users/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/users/page": "action-browser"
+      },
+      "exportedName": "deleteUserAction",
+      "filename": "app/(main)/users/actions.ts"
+    },
+    "603faeaee93e59fca4f55704f48eb144468525294d": {
+      "workers": {
+        "app/(main)/users/page": {
+          "moduleId": 82088,
+          "async": false,
+          "exportedName": "fetchApi",
+          "filename": "lib/api.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/users/page": "rsc"
+      },
+      "exportedName": "fetchApi",
+      "filename": "lib/api.ts"
+    }
+  },
+  "edge": {}
+}

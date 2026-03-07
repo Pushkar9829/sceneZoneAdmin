@@ -1,0 +1,50 @@
+{
+  "node": {
+    "00a986ee545080925ba0ef989b963c3a195bf31e7c": {
+      "workers": {
+        "app/(main)/events/page": {
+          "moduleId": 37634,
+          "async": false,
+          "exportedName": "getEventsAction",
+          "filename": "app/(main)/events/actions.tsx"
+        }
+      },
+      "layer": {
+        "app/(main)/events/page": "rsc"
+      },
+      "exportedName": "getEventsAction",
+      "filename": "app/(main)/events/actions.tsx"
+    },
+    "401104607e854635634fca616075732d25efa6bf7b": {
+      "workers": {
+        "app/(main)/events/page": {
+          "moduleId": 37634,
+          "async": false,
+          "exportedName": "getEventBookingsAction",
+          "filename": "app/(main)/events/actions.tsx"
+        }
+      },
+      "layer": {
+        "app/(main)/events/page": "action-browser"
+      },
+      "exportedName": "getEventBookingsAction",
+      "filename": "app/(main)/events/actions.tsx"
+    },
+    "603faeaee93e59fca4f55704f48eb144468525294d": {
+      "workers": {
+        "app/(main)/events/page": {
+          "moduleId": 37634,
+          "async": false,
+          "exportedName": "fetchApi",
+          "filename": "lib/api.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/events/page": "rsc"
+      },
+      "exportedName": "fetchApi",
+      "filename": "lib/api.ts"
+    }
+  },
+  "edge": {}
+}

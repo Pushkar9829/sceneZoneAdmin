@@ -1,0 +1,7 @@
+[00:00:03.279] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:03.676] Server  LOG     ✓ Ready in 2.9s
+[00:01:27.296] Server  LOG     ○ Compiling /login ...
+[00:01:34.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:47.607] Server  ERROR   Login Action Error: ApiError: Network error. Please check your connection.
+[00:02:17.718] Server  ERROR   Login Action Error: ApiError: Network error. Please check your connection.
+[00:04:19.044] Server  LOG     ✓ Compiled in 194ms

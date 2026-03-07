@@ -10,16 +10,13 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
+# testindg
 /coverage
 
 # next.js
-/.next/
-/out/
-
+ 
 # production
-/build
-
+ 
 # misc
 .DS_Store
 *.pem

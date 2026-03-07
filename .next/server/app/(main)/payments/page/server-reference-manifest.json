@@ -1,0 +1,20 @@
+{
+  "node": {
+    "603faeaee93e59fca4f55704f48eb144468525294d": {
+      "workers": {
+        "app/(main)/payments/page": {
+          "moduleId": 44925,
+          "async": false,
+          "exportedName": "fetchApi",
+          "filename": "lib/api.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/payments/page": "rsc"
+      },
+      "exportedName": "fetchApi",
+      "filename": "lib/api.ts"
+    }
+  },
+  "edge": {}
+}
