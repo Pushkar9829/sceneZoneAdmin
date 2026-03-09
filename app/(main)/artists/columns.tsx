@@ -4,21 +4,48 @@ import { ColumnDef } from '@tanstack/react-table'
 import { ArtistProfile } from './schema'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Eye, CheckCircle2, XCircle } from 'lucide-react'
+import { Eye, Pencil, CheckCircle2, XCircle } from 'lucide-react'
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { ArtistDetails } from './artist-details'
+import { ArtistEditModal } from './artist-edit-modal'
 import Image from 'next/image'
 
 // Wrapper component to handle the modal state per row
 const ActionCell = ({ artist }: { artist: ArtistProfile }) => {
-  const [open, setOpen] = useState(false)
+  const [viewOpen, setViewOpen] = useState(false)
+  const [editOpen, setEditOpen] = useState(false)
+  const router = useRouter()
+
+  const handleSaved = () => {
+    router.refresh()
+  }
 
   return (
     <>
-      <Button variant="outline" size="sm" onClick={() => setOpen(true)}>
-        <Eye className="mr-2 h-4 w-4" /> View Profile
-      </Button>
-      <ArtistDetails artist={artist} open={open} onOpenChange={setOpen} />
+      <div className="flex items-center gap-2">
+        <Button variant="outline" size="sm" onClick={() => setViewOpen(true)}>
+          <Eye className="mr-2 h-4 w-4" /> View
+        </Button>
+        <Button variant="ghost" size="sm" onClick={() => setEditOpen(true)}>
+          <Pencil className="mr-2 h-4 w-4" /> Edit
+        </Button>
+      </div>
+      <ArtistDetails
+        artist={artist}
+        open={viewOpen}
+        onOpenChange={setViewOpen}
+        onEdit={() => {
+          setViewOpen(false)
+          setEditOpen(true)
+        }}
+      />
+      <ArtistEditModal
+        artist={artist}
+        open={editOpen}
+        onOpenChange={setEditOpen}
+        onSaved={handleSaved}
+      />
     </>
   )
 }

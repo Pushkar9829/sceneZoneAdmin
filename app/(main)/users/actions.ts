@@ -11,7 +11,7 @@ export async function deleteUserAction(userId: string) {
   if (!token) return { error: "Unauthorized" }
 
   try {
-    await fetchApi(`/admin/delete-user/${userId}`, { // Adjust endpoint
+    await fetchApi(`/admin/delete-user/${userId}`, {
       method: "DELETE",
       headers: {
         "Authorization": `Bearer ${token}`,
@@ -23,5 +23,32 @@ export async function deleteUserAction(userId: string) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     return { error: error.message || "Failed to delete user" }
+  }
+}
+
+export async function updateUserAction(
+  userId: string,
+  role: "host" | "artist",
+  data: { fullName?: string; email?: string }
+) {
+  const cookieStore = await cookies()
+  const token = cookieStore.get("accessToken")?.value
+
+  if (!token) return { error: "Unauthorized" }
+
+  try {
+    await fetchApi(`/admin/update-user/${userId}`, {
+      method: "PATCH",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({ role, ...data }),
+    })
+
+    revalidatePath("/users")
+    return { success: true, message: "User updated successfully" }
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  } catch (error: any) {
+    return { error: error.message || "Failed to update user" }
   }
 }

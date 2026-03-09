@@ -14,6 +14,110 @@
       },
       "filename": "app/(auth)/login/actions.ts",
       "exportedName": "loginAction"
+    },
+    "60d76025c50634ce4a0f0063e7dc968f49d761a8f5": {
+      "workers": {
+        "app/(main)/artists/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/artists/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/(main)/artists/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "fetchApi",
+          "filename": "lib/api.ts"
+        },
+        "app/(main)/payments/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/payments/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "fetchApi",
+          "filename": "lib/api.ts"
+        },
+        "app/(main)/users/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/(main)/users/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "fetchApi",
+          "filename": "lib/api.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/artists/page": "rsc",
+        "app/(main)/payments/page": "rsc",
+        "app/(main)/users/page": "rsc"
+      },
+      "filename": "lib/api.ts",
+      "exportedName": "fetchApi"
+    },
+    "404425617ad21e6d5587f82b78792d755e551e0db9": {
+      "workers": {
+        "app/(main)/users/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/(main)/users/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteUserAction",
+          "filename": "app/(main)/users/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/users/page": "action-browser"
+      },
+      "filename": "app/(main)/users/actions.ts",
+      "exportedName": "deleteUserAction"
+    },
+    "70bb4276d137c412c523d81fd3d491d72ab8521a4e": {
+      "workers": {
+        "app/(main)/users/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/(main)/users/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUserAction",
+          "filename": "app/(main)/users/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/users/page": "action-browser"
+      },
+      "filename": "app/(main)/users/actions.ts",
+      "exportedName": "updateUserAction"
+    },
+    "4081e8c5d98a659e43ac3aca2c727000c76bda6c73": {
+      "workers": {
+        "app/(main)/artists/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/artists/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/(main)/artists/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "verifyArtistAction",
+          "filename": "app/(main)/artists/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/artists/page": "action-browser"
+      },
+      "filename": "app/(main)/artists/actions.ts",
+      "exportedName": "verifyArtistAction"
+    },
+    "4089dea9a27610dbd2e586821b3bf06cda66b59711": {
+      "workers": {
+        "app/(main)/artists/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/artists/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/(main)/artists/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteArtistAction",
+          "filename": "app/(main)/artists/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/artists/page": "action-browser"
+      },
+      "filename": "app/(main)/artists/actions.ts",
+      "exportedName": "deleteArtistAction"
+    },
+    "60b62b00e1f2325027780a91eb3646146c1fe2748d": {
+      "workers": {
+        "app/(main)/artists/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/artists/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/(main)/artists/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateArtistAction",
+          "filename": "app/(main)/artists/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/artists/page": "action-browser"
+      },
+      "filename": "app/(main)/artists/actions.ts",
+      "exportedName": "updateArtistAction"
     }
   },
   "edge": {},

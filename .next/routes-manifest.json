@@ -20,7 +20,16 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [],
+  "dynamicRoutes": [
+    {
+      "page": "/api/admin/artist/[artistId]/performance",
+      "regex": "^/api/admin/artist/([^/]+?)/performance(?:/)?$",
+      "routeKeys": {
+        "nxtPartistId": "nxtPartistId"
+      },
+      "namedRegex": "^/api/admin/artist/(?<nxtPartistId>[^/]+?)/performance(?:/)?$"
+    }
+  ],
   "staticRoutes": [
     {
       "page": "/_global-error",

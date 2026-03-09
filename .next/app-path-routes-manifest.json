@@ -7,5 +7,6 @@
   "/(main)/users/page": "/users",
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/api/admin/artist/[artistId]/performance/route": "/api/admin/artist/[artistId]/performance",
   "/favicon.ico/route": "/favicon.ico"
 }

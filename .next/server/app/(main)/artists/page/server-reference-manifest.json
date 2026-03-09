@@ -30,6 +30,21 @@
       "exportedName": "deleteArtistAction",
       "filename": "app/(main)/artists/actions.ts"
     },
+    "60cab5a859dbc8179faa522ea73cf1dfbc2091d700": {
+      "workers": {
+        "app/(main)/artists/page": {
+          "moduleId": 14934,
+          "async": false,
+          "exportedName": "updateArtistAction",
+          "filename": "app/(main)/artists/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/artists/page": "action-browser"
+      },
+      "exportedName": "updateArtistAction",
+      "filename": "app/(main)/artists/actions.ts"
+    },
     "603faeaee93e59fca4f55704f48eb144468525294d": {
       "workers": {
         "app/(main)/artists/page": {

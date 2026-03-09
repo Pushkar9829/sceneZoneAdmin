@@ -7,16 +7,17 @@ import { CustomModal } from "@/components/ui/custom-modal"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
-import { CheckCircle2, Loader2, MapPin, Music, IndianRupee, Trash } from "lucide-react"
+import { CheckCircle2, Loader2, MapPin, Music, IndianRupee, Trash, Pencil } from "lucide-react"
 import Image from "next/image"
 
 interface ArtistDetailsProps {
   artist: ArtistProfile
   open: boolean
   onOpenChange: (open: boolean) => void
+  onEdit?: () => void
 }
 
-export function ArtistDetails({ artist, open, onOpenChange }: ArtistDetailsProps) {
+export function ArtistDetails({ artist, open, onOpenChange, onEdit }: ArtistDetailsProps) {
   const [loading, setLoading] = useState(false)
 
   const handleVerify = async () => {
@@ -166,6 +167,12 @@ export function ArtistDetails({ artist, open, onOpenChange }: ArtistDetailsProps
           <Button variant="outline" size="sm" onClick={() => onOpenChange(false)}>
             Close
           </Button>
+
+          {onEdit && (
+            <Button variant="outline" size="sm" onClick={() => { onEdit(); onOpenChange(false); }}>
+              <Pencil className="mr-2 h-4 w-4" /> Edit Artist
+            </Button>
+          )}
 
           {!artist.artistId.isVerified && (
             <Button

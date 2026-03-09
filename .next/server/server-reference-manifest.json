@@ -45,6 +45,21 @@
       "filename": "app/(main)/artists/actions.ts",
       "exportedName": "deleteArtistAction"
     },
+    "60cab5a859dbc8179faa522ea73cf1dfbc2091d700": {
+      "workers": {
+        "app/(main)/artists/page": {
+          "moduleId": 14934,
+          "async": false,
+          "exportedName": "updateArtistAction",
+          "filename": "app/(main)/artists/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/artists/page": "action-browser"
+      },
+      "filename": "app/(main)/artists/actions.ts",
+      "exportedName": "updateArtistAction"
+    },
     "603faeaee93e59fca4f55704f48eb144468525294d": {
       "workers": {
         "app/(main)/artists/page": {
@@ -125,6 +140,21 @@
       },
       "filename": "app/(main)/users/actions.ts",
       "exportedName": "deleteUserAction"
+    },
+    "708b88e9b3c242add757e2ced384bc0faa426e19d2": {
+      "workers": {
+        "app/(main)/users/page": {
+          "moduleId": 82088,
+          "async": false,
+          "exportedName": "updateUserAction",
+          "filename": "app/(main)/users/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/users/page": "action-browser"
+      },
+      "filename": "app/(main)/users/actions.ts",
+      "exportedName": "updateUserAction"
     }
   },
   "edge": {},

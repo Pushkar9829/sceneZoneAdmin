@@ -1,7 +1,9 @@
-[00:00:03.279] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:03.676] Server  LOG     ✓ Ready in 2.9s
-[00:01:27.296] Server  LOG     ○ Compiling /login ...
-[00:01:34.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:47.607] Server  ERROR   Login Action Error: ApiError: Network error. Please check your connection.
-[00:02:17.718] Server  ERROR   Login Action Error: ApiError: Network error. Please check your connection.
-[00:04:19.044] Server  LOG     ✓ Compiled in 194ms
+[00:00:03.112] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:03.652] Server  LOG     ✓ Ready in 2.7s
+[00:35:15.878] Server  LOG     ✓ Compiled in 276ms
+[00:35:16.511] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__86e6d70c._.css
+[00:36:03.907] Server  LOG     ✓ Compiled in 190ms
+[00:37:07.300] Server  LOG     ✓ Compiled in 532ms
+[00:37:07.521] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__86e6d70c._.css
+[00:40:31.533] Server  LOG     ○ Compiling /users ...
+[00:43:17.188] Browser WARN    Image with src "https://scenezone-media-uploads.s3.ap-south-1.amazonaws.com/Artist/profileImage/11+Arnav+Rawal.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

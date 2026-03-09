@@ -1,0 +1,20 @@
+{
+  "node": {
+    "60d76025c50634ce4a0f0063e7dc968f49d761a8f5": {
+      "workers": {
+        "app/(main)/payments/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/payments/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "fetchApi",
+          "filename": "lib/api.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/payments/page": "rsc"
+      },
+      "exportedName": "fetchApi",
+      "filename": "lib/api.ts"
+    }
+  },
+  "edge": {}
+}

@@ -15,6 +15,21 @@
       "exportedName": "deleteUserAction",
       "filename": "app/(main)/users/actions.ts"
     },
+    "708b88e9b3c242add757e2ced384bc0faa426e19d2": {
+      "workers": {
+        "app/(main)/users/page": {
+          "moduleId": 82088,
+          "async": false,
+          "exportedName": "updateUserAction",
+          "filename": "app/(main)/users/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/users/page": "action-browser"
+      },
+      "exportedName": "updateUserAction",
+      "filename": "app/(main)/users/actions.ts"
+    },
     "603faeaee93e59fca4f55704f48eb144468525294d": {
       "workers": {
         "app/(main)/users/page": {

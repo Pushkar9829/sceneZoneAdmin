@@ -6,6 +6,7 @@ export const userSchema = z.object({
   fullName: z.string(),
   mobileNumber: z.string(),
   role: z.enum(["user", "artist", "host", "admin"]),
+  email: z.string().nullable().optional(),
   address: z.string().nullable().optional(),
   location: z.string().nullable().optional(),
 })
