@@ -35,11 +35,13 @@ export async function deleteArtistAction(artistAuthId: string) {
   if (!token) return { error: "Unauthorized" }
 
   try {
-    await fetchApi(`/admin/delete-artist/${artistAuthId}`, {
+    // Uses longstanding /artist route so production backends without /admin/delete-artist still work.
+    await fetchApi(`/artist/delete-profile`, {
       method: "DELETE",
       headers: {
         "Authorization": `Bearer ${token}`,
       },
+      body: JSON.stringify({ artistId: artistAuthId }),
     })
 
     revalidatePath("/artists")

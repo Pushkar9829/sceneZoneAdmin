@@ -3,8 +3,10 @@
 import { ApiError } from './exceptions'
 import { cookies } from 'next/headers'
 
-// const BACKEND_sURL = 'https://app.scenezone.in/api'
-const BACKEND_URL = 'https://api.thescenezone.com/api'
+// Set BACKEND_API_URL in .env.local when the admin app should talk to a local API (e.g. http://localhost:5000/api).
+const BACKEND_URL = (
+  process.env.BACKEND_API_URL || 'https://api.thescenezone.com/api'
+).replace(/\/$/, '')
 
 export async function fetchApi<T>(
   path: string,
