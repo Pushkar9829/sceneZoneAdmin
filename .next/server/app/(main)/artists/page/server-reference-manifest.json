@@ -1,6 +1,6 @@
 {
   "node": {
-    "408f188d05c5fade1c2d9b7581e5272b34e51bd934": {
+    "40af6753107d185bc8612b27f3398ce37a46c3cdb4": {
       "workers": {
         "app/(main)/artists/page": {
           "moduleId": 14934,
@@ -15,7 +15,7 @@
       "exportedName": "verifyArtistAction",
       "filename": "app/(main)/artists/actions.ts"
     },
-    "404b3f649688f4247c5bc0abdbba44ef272eb757b9": {
+    "4091f48ae6a6404c2f499ec597411cc60efad6fb8f": {
       "workers": {
         "app/(main)/artists/page": {
           "moduleId": 14934,
@@ -30,7 +30,7 @@
       "exportedName": "deleteArtistAction",
       "filename": "app/(main)/artists/actions.ts"
     },
-    "60cab5a859dbc8179faa522ea73cf1dfbc2091d700": {
+    "609c2f2b430f521787168a91c12e5574d8aa7a23de": {
       "workers": {
         "app/(main)/artists/page": {
           "moduleId": 14934,
@@ -45,7 +45,7 @@
       "exportedName": "updateArtistAction",
       "filename": "app/(main)/artists/actions.ts"
     },
-    "603faeaee93e59fca4f55704f48eb144468525294d": {
+    "6019ec78004fe14420b5bf8ae2d5ee5983d65f190a": {
       "workers": {
         "app/(main)/artists/page": {
           "moduleId": 14934,

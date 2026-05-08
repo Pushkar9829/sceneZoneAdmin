@@ -29,8 +29,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
-// Set BACKEND_URL in .env to match your API (e.g. http://localhost:5000/api)
-const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:3000/api';
+// const BACKEND_sURL = 'https://app.scenezone.in/api'
+const BACKEND_URL = 'https://api.thescenezone.com/api';
 async function fetchApi(path, options = {}) {
     const url = `${BACKEND_URL}${path}`;
     const cookieStore = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cookies"])();

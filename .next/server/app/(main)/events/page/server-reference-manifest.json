@@ -1,6 +1,6 @@
 {
   "node": {
-    "00a986ee545080925ba0ef989b963c3a195bf31e7c": {
+    "0053ba76960b396ab58b7df022e989d7c8c82df583": {
       "workers": {
         "app/(main)/events/page": {
           "moduleId": 37634,
@@ -15,7 +15,7 @@
       "exportedName": "getEventsAction",
       "filename": "app/(main)/events/actions.tsx"
     },
-    "401104607e854635634fca616075732d25efa6bf7b": {
+    "40ac4c8766cf11c46b4976dd12f05bcaac35000c1c": {
       "workers": {
         "app/(main)/events/page": {
           "moduleId": 37634,
@@ -30,7 +30,7 @@
       "exportedName": "getEventBookingsAction",
       "filename": "app/(main)/events/actions.tsx"
     },
-    "603faeaee93e59fca4f55704f48eb144468525294d": {
+    "6019ec78004fe14420b5bf8ae2d5ee5983d65f190a": {
       "workers": {
         "app/(main)/events/page": {
           "moduleId": 37634,

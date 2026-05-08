@@ -1,0 +1,50 @@
+{
+  "node": {
+    "00224d157e919e52dc2c3c4582924d304ebf13df94": {
+      "workers": {
+        "app/(main)/events/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/events/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/(main)/events/actions.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getEventsAction",
+          "filename": "app/(main)/events/actions.tsx"
+        }
+      },
+      "layer": {
+        "app/(main)/events/page": "rsc"
+      },
+      "exportedName": "getEventsAction",
+      "filename": "app/(main)/events/actions.tsx"
+    },
+    "405cb920a10f9dd29a0ad35a72024ffc590611b7e1": {
+      "workers": {
+        "app/(main)/events/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/events/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/(main)/events/actions.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getEventBookingsAction",
+          "filename": "app/(main)/events/actions.tsx"
+        }
+      },
+      "layer": {
+        "app/(main)/events/page": "action-browser"
+      },
+      "exportedName": "getEventBookingsAction",
+      "filename": "app/(main)/events/actions.tsx"
+    },
+    "60d76025c50634ce4a0f0063e7dc968f49d761a8f5": {
+      "workers": {
+        "app/(main)/events/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/events/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/(main)/events/actions.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/lib/api.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "fetchApi",
+          "filename": "lib/api.ts"
+        }
+      },
+      "layer": {
+        "app/(main)/events/page": "rsc"
+      },
+      "exportedName": "fetchApi",
+      "filename": "lib/api.ts"
+    }
+  },
+  "edge": {}
+}

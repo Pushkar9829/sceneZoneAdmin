@@ -1,6 +1,6 @@
 {
   "node": {
-    "6043976ca7928968d51150701fc188b7219098326d": {
+    "60dcf2372b6d188ec68d43cba0e7b2adac6b48b1a3": {
       "workers": {
         "app/(auth)/login/page": {
           "moduleId": 5706,
@@ -15,7 +15,7 @@
       "filename": "app/(auth)/login/actions.ts",
       "exportedName": "loginAction"
     },
-    "408f188d05c5fade1c2d9b7581e5272b34e51bd934": {
+    "40af6753107d185bc8612b27f3398ce37a46c3cdb4": {
       "workers": {
         "app/(main)/artists/page": {
           "moduleId": 14934,
@@ -30,7 +30,7 @@
       "filename": "app/(main)/artists/actions.ts",
       "exportedName": "verifyArtistAction"
     },
-    "404b3f649688f4247c5bc0abdbba44ef272eb757b9": {
+    "4091f48ae6a6404c2f499ec597411cc60efad6fb8f": {
       "workers": {
         "app/(main)/artists/page": {
           "moduleId": 14934,
@@ -45,7 +45,7 @@
       "filename": "app/(main)/artists/actions.ts",
       "exportedName": "deleteArtistAction"
     },
-    "60cab5a859dbc8179faa522ea73cf1dfbc2091d700": {
+    "609c2f2b430f521787168a91c12e5574d8aa7a23de": {
       "workers": {
         "app/(main)/artists/page": {
           "moduleId": 14934,
@@ -60,7 +60,7 @@
       "filename": "app/(main)/artists/actions.ts",
       "exportedName": "updateArtistAction"
     },
-    "603faeaee93e59fca4f55704f48eb144468525294d": {
+    "6019ec78004fe14420b5bf8ae2d5ee5983d65f190a": {
       "workers": {
         "app/(main)/artists/page": {
           "moduleId": 14934,
@@ -96,7 +96,7 @@
       "filename": "lib/api.ts",
       "exportedName": "fetchApi"
     },
-    "00a986ee545080925ba0ef989b963c3a195bf31e7c": {
+    "0053ba76960b396ab58b7df022e989d7c8c82df583": {
       "workers": {
         "app/(main)/events/page": {
           "moduleId": 37634,
@@ -111,7 +111,7 @@
       "filename": "app/(main)/events/actions.tsx",
       "exportedName": "getEventsAction"
     },
-    "401104607e854635634fca616075732d25efa6bf7b": {
+    "40ac4c8766cf11c46b4976dd12f05bcaac35000c1c": {
       "workers": {
         "app/(main)/events/page": {
           "moduleId": 37634,
@@ -126,7 +126,7 @@
       "filename": "app/(main)/events/actions.tsx",
       "exportedName": "getEventBookingsAction"
     },
-    "40a1194005046310bb8f27c059a8eab6a843425551": {
+    "403b1556b6839cc039967b4c144908df86b5f8dc9a": {
       "workers": {
         "app/(main)/users/page": {
           "moduleId": 82088,
@@ -141,7 +141,7 @@
       "filename": "app/(main)/users/actions.ts",
       "exportedName": "deleteUserAction"
     },
-    "708b88e9b3c242add757e2ced384bc0faa426e19d2": {
+    "700a2794fef6ad0c244705ac371ea4d0e467712f99": {
       "workers": {
         "app/(main)/users/page": {
           "moduleId": 82088,
@@ -158,5 +158,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "WopkTqSsuRtNu3jrOZyvghxG5GGB4zPNz3CX1nvhkCo="
+  "encryptionKey": "RnaXUbhbM1No74ppslQbIoRgmft2OyTtsLy8qnYd008="
 }
